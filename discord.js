@@ -12,13 +12,7 @@ if(msg.content === "Hi" ) {       msg.sendMessage("Hello");} ;
 if(msg.content === "Bye"){
          msg.sendMessage("bye see u soon")};
 
-if (/^eval /i.test(msg.content)) {
 
-                msg.channel.sendMessage("
-js\n"+eval(msg.content.replace(/^!!eval /i, ""))+"
-");
-                msg.react("✅");
-}
 
 if (/^$game .*?/i.test(msg.content)) {
 
@@ -35,4 +29,4 @@ client.sendMessage(message.author, "content")
 
 })
 stt = {game:{name:"",type:0},type:0,afk:false};
-client.login('MzUwMjI5MjQyMDgyMjMwMjg0.DIBKgQ.PL_8_4kTzY0evdV5k54RDETZd1w');
+client.login('MzM0NTMyMzE5OTcwOTgzOTM2.DKOhtA.YEFSdaC9DZ6b8g-IN_4Y21pnwWQ');
